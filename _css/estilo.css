@@ -1,0 +1,37 @@
+
+body {
+	  background: fixed;
+	  background-image: url("../_imagens/imagembg1.jpg");
+	  background-size: cover;
+	  -webkit-background-size: cover;
+	  -o-background-size: cover;
+	  -moz-background-size: cover;
+	  background-position: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'Amatic Sc', sans-serif;
+	font-size: 100px;
+	text-shadow: 2px 2px 8px #000000;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Orbitron', sans-serif;
+	color: gray;
+	text-align: center;
+	margin-left: 220px;
+	text-shadow: #000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+	
+}
+
+#titulo {
+		 position: relative;
+		 top: 700px;
+		 line-height: 0%;
+		 border: solid;
+		 width: 50%;
+		 left: 25%;
+}
