@@ -1,0 +1,66 @@
+header {
+	position: fixed;
+	top: 40%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px;
+}
+
+.li-menu {
+	position: relative;
+
+}
+
+.ul-about {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+	border: 1px solid #ccc;
+	color: white;
+	background: black;
+}
+
+.li-link {
+	display: block;
+	text-decoration: none;
+	color: white;
+	background: black;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+li:hover ul {
+	display: block;
+}
+
+body {
+	background: white;
+}
+
+.principal {
+	margin: 0 auto;
+	border: #000000 1px solid;
+	width: 790px;
+	height: 2000px;
+}
+
+.social-icons {
+	position: fixed;
+
+}
+
+.social-icons li {
+	display: inline-block;
+}
+
+.social-icons a {
+
+	display: block;
+
+}
+
