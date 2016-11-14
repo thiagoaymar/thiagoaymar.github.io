@@ -27,44 +27,42 @@ ul {
 	top: 0;
 	display: none;
 	border: 1px solid #ccc;
-	color: white;
+	color: #ffffff;
 	background: black;
+	
 }
 
 .li-link {
 	display: block;
 	text-decoration: none;
-	color: white;
-	background: black;
+	color: #ffffff;
+	background: #000000;
 	padding: 5px;
-	
 	margin: 2px 1px 0px 0px;
 }
 
-li:hover ul {
+li:hover .ul-about {
 	display: block;
+	background: #ffffff;
+	color: #000000;
 }
 
 body {
-	background: url("../imagens/imagembg2.JPG") fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
-	background-position: center;
+	background: #000000;
 }
 
 .principal {
 	margin: 0 auto;
-	border: #000000 1px solid;
-	width: 790px;
-	height: 2000px;
+	border: #ffffff 1px solid;
+	width: 1500px;
+	height: 1500px;
+	margin-top: 200px;
+
 }
 
 .social-icons {
 	position: absolute;
 	display: none;
-	border: 1px solid #ccc;
 	width: 147px;
 }
 
@@ -76,4 +74,17 @@ li:hover .social-icons {
 	display: block;
 }
 
+.principal img {
+	width: auto;
+	height: auto;
+	max-height: 400px;
+	max-width: 400px;
+	margin: 70px;
+
+}
+
+.li-link:hover {
+	color: #000000;
+	background: #ffffff;
+}
 
