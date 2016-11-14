@@ -1,7 +1,7 @@
 
 body {
 	  background: fixed;
-	  background-image: url("/imagens/imagembg1.JPG");
+	  background-image: url("../imagens/imagembg1.JPG");
 	  background-size: cover;
 	  -webkit-background-size: cover;
 	  -o-background-size: cover;
@@ -34,4 +34,9 @@ h2 {
 		 border: solid;
 		 width: 50%;
 		 left: 25%;
+}
+
+.link-principal {
+	text-decoration: none;
+	color: white;
 }
