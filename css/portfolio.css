@@ -89,6 +89,11 @@ figure {
 
 figcaption {
 	color: #ffffff;
+	bottom: 20px;
+	position: relative;
+	text-align: center;
+	background: #000000;
+	opacity: 0.4;
 	
 }
 
