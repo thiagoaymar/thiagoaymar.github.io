@@ -7,14 +7,17 @@ body {
 	  -o-background-size: cover;
 	  -moz-background-size: cover;
 	  background-position: center;
+	  margin: 0;
 }
 
 h1 {
 	color: white;
 	font-family: 'Amatic Sc', sans-serif;
-	font-size: 100px;
+	font-size: 90px;
 	text-shadow: 2px 2px 8px #000000;
 	text-align: center;
+	margin: 0;
+	height: 100px;
 
 }
 
@@ -22,21 +25,17 @@ h2 {
 	font-family: 'Orbitron', sans-serif;
 	color: gray;
 	text-align: center;
-	margin-left: 220px;
+	margin: 0 0 0 220px;
 	text-shadow: #000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
 	
 }
 
 .titulo {
-		 position: relative;
-		 top: 700px;
-		 line-height: 0%;
-		 border: solid;
-		 width: 50%;
-		 left: 25%;
+	background: rgba(0,0,0,0.5);
+	position: relative;
+	top: 840px;
 }
 
-.link-principal {
+a {
 	text-decoration: none;
-	color: white;
 }
