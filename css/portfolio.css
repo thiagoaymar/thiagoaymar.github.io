@@ -52,11 +52,11 @@ body {
 }
 
 .principal {
-	margin: 0 auto;
-	border: #ffffff 1px solid;
+	margin: auto;
 	width: 1500px;
-	height: 900px;
-	
+	height: 754px;
+	position: relative;
+	top: 100px;
 
 }
 
@@ -80,29 +80,18 @@ li:hover .social-icons {
 }
 
 figure {
-	width: auto;
-	height: auto;
-	max-height: 1000px;
-	max-width: 1300px;
-	margin: 0 auto;
-}
-
-figcaption {
-	color: #ffffff;
-	bottom: 20px;
-	position: relative;
-	text-align: center;
-	background: #000000;
-	opacity: 0.4;
-	
+	width: 1500px;
+	height: 754px;
+	margin: auto;
 }
 
 figure img {
 	width: auto;
 	height: auto;
-	max-height: 1000px;
-	max-width: 1300px;
-	display: block;
+	max-height: 300px;
+	max-width: 370px;
+	display: inline-block;
 	padding: 0;
+	margin: auto;
 
 }
