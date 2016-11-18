@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+/*Menu*/
+
 header {
 	position: fixed;
 	top: 40%;
@@ -54,20 +56,6 @@ li:hover .ul-about {
 	z-index: 5;
 }
 
-
-
-body {
-	background: #000000;
-}
-
-.principal {
-	margin: auto;
-	width: 1500px;
-	height: 754px;
-	position: relative;
-	top: 125px;
-}
-
 .social-icons {
 	position: absolute;
 	display: none;
@@ -87,6 +75,19 @@ li:hover .social-icons {
 	background: #ffffff;
 }
 
+
+body {
+	background: #000000;
+}
+
+.principal {
+	margin: auto;
+	width: 1500px;
+	height: 754px;
+	position: relative;
+	top: 125px;
+}
+
 figure {
 	width: 1500px;
 	height: 754px;
@@ -94,7 +95,6 @@ figure {
 	position: relative;
 	z-index: 4;
 }
-
 
 figure img {
 	width: auto;
@@ -105,6 +105,7 @@ figure img {
 	padding: 0;
 	margin: auto;
 	position: relative;
+	border-radius: 5px;
 }
 
 
