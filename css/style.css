@@ -38,4 +38,9 @@ h2 {
 
 a {
 	text-decoration: none;
+	outline: none;
+}
+
+.titulo:hover {
+	background: rgba(0,0,0,0.7);
 }
