@@ -30,11 +30,13 @@ ul {
 	border: 1px solid #ccc;
 	color: #ffffff;
 	background: black;
-	z-index: 5;	
+	z-index: 5;
+	
 }
 
 ul .ul-about {
 	position: absolute; 
+
 }
 
 .li-link {
@@ -53,8 +55,6 @@ li:hover .ul-about {
 	position: absolute;
 	z-index: 5;
 }
-
-
 
 body {
 	background: #000000;
@@ -80,11 +80,16 @@ body {
 
 li:hover .social-icons {
 	display: block;
+
 }
 
 .li-link:hover {
 	color: #000000;
 	background: #ffffff;
+	transition: 0.3s ease-in;
+	-webkit-transition: 0.3s ease-in;
+	-moz-transition: 0.3s ease-in;
+	-o-transition: 0.3s ease-in;
 }
 
 figure {
@@ -106,6 +111,4 @@ figure img {
 	margin: auto;
 	position: relative;
 }
-
-
 
