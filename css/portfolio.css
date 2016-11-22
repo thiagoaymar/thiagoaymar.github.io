@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+body {
+	background: #000000;
+}
+
 header {
 	position: fixed;
 	top: 40%;
@@ -8,6 +12,14 @@ header {
 	font-size: 30px;
 	left: 0px;
 	z-index: 5;
+}
+
+.principal {
+	margin: auto;
+	width: 1500px;
+	height: 754px;
+	position: relative;
+	top: 125px;
 }
 
 ul {
@@ -19,24 +31,6 @@ ul {
 
 .li-menu {
 	position: relative;
-
-}
-
-.ul-about {
-	position: absolute;
-	left: 149px;
-	top: 0;
-	display: none;
-	border: 1px solid #ccc;
-	color: #ffffff;
-	background: black;
-	z-index: 5;
-	
-}
-
-ul .ul-about {
-	position: absolute; 
-
 }
 
 .li-link {
@@ -48,30 +42,40 @@ ul .ul-about {
 	margin: 2px 1px 0px 0px;
 }
 
+.li-link:hover {
+	color: #000000;
+	background: #ffffff;
+	transition: 0.2s ease-in;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+}
+
+.ul-about {
+	position: absolute;
+	top: 0;
+	border: 1px solid #ccc;
+	z-index: 5;
+	transition: 0.2s ease all;
+	opacity: 0;	
+	left: 149px;
+	
+}
+
 li:hover .ul-about {
-	display: block;
 	background: #ffffff;
 	color: #000000;
 	position: absolute;
 	z-index: 5;
-}
-
-body {
-	background: #000000;
-}
-
-.principal {
-	margin: auto;
-	width: 1500px;
-	height: 754px;
-	position: relative;
-	top: 125px;
+	opacity: 1;
 }
 
 .social-icons {
 	position: absolute;
-	display: none;
 	width: 147px;
+	opacity: 0;
+	padding-top: 5px;
+	right: 147px;
 }
 
 .social-icons li {
@@ -79,18 +83,12 @@ body {
 }
 
 li:hover .social-icons {
-	display: block;
+	transition: 1s ease all;
+	opacity: 1;
+	transform: translate(147px,0);
 
 }
 
-.li-link:hover {
-	color: #000000;
-	background: #ffffff;
-	transition: 0.3s ease-in;
-	-webkit-transition: 0.3s ease-in;
-	-moz-transition: 0.3s ease-in;
-	-o-transition: 0.3s ease-in;
-}
 
 figure {
 	width: 1500px;
