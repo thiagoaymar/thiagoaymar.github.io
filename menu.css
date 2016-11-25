@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+	background: #000000;
+}
+
+/*Menu lateral*/
+header {
+	position: fixed;
+	top: 40%;
+	left: 0px;
+	text-align: center;
+}
+
+.ul-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+}
+
+.link-menu {
+	text-decoration: none;
+	background: #000000;
+	display: block;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 30px;
+	padding: 5px;
+	color: #ffffff;
+
+}
+
+.li-about {
+	position: absolute;
+	border: solid #000000 1px;
+	width: 150px;
+	height: 150px;
+	bottom: 0px;
+	left: 150px;
+	background: #ffffff;
+
+}
+
+.li-icons {
+	display: inline-block;
+	padding-top: 5px;
+}
+
+
