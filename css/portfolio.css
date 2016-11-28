@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 body {
-	background: #000000;
+	background: url(../testebg.png);
+	z-index: 2 !important;
 }
 
 header {
@@ -55,18 +56,22 @@ ul {
 	position: absolute;
 	top: 0;
 	border: 1px solid #ccc;
-	z-index: 5;
+	z-index: 1 !important;
 	transition: 0.2s ease all;
 	opacity: 0;	
 	left: 149px;
 	
 }
 
+.li-about {
+	z-index: 1 !important;
+}
+
 li:hover .ul-about {
 	background: #ffffff;
 	color: #000000;
 	position: absolute;
-	z-index: 5;
+	z-index: 1; 
 	opacity: 1;
 }
 
