@@ -1,80 +1,91 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
-/*Menu*/
-
+/*Menu lateral*/
 header {
 	position: fixed;
 	top: 40%;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-	font-size: 30px;
 	left: 0px;
-	z-index: 5;
+	text-align: center;
 }
 
-ul {
+.ul-menu {
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	list-style: none;
 	width: 150px;
 }
 
-.li-menu {
-	position: relative;
+.link-menu {
+	text-decoration: none;
+	background: #000000;
+	display: block;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 30px;
+	padding: 5px;
+	color: #ffffff;
+	z-index: 1;	
 
+}
+
+.link-menu:hover {
+	background: #ffffff;
+	color: #000000;
+	transition: 0.2s ease-in;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+}
+
+.li-about {
+	position: absolute;
+	border: solid #000000 1px;
+	width: 0;
+	height: 150px;
+	bottom: 34px;
+	left: 150px;
+	background: #ffffff;
+	opacity: 0;
+	transition: 0.2s ease-in;
+}
+
+li .li-about {
+	z-index: 10;
+	position: absolute;
+}
+
+.li-icons {
+	display: inline-block;
+	padding-top: 5px;
+	visibility: visible;
+	width: 25px;
+}
+
+.li-icons img {
+	width: 100%;
 }
 
 .ul-about {
-	position: absolute;
-	left: 149px;
-	top: 0;
-	display: none;
-	border: 1px solid #ccc;
-	color: #ffffff;
-	background: black;
-	z-index: 5;	
+	visibility: hidden;
 }
 
-ul .ul-about {
-	position: absolute; 
+.li-sobre:hover > .ul-about {
+	opacity: 1;
+	visibility: visible;
+
+
 }
 
-.li-link {
-	display: block;
-	text-decoration: none;
-	color: #ffffff;
-	background: #000000;
-	padding: 5px;
-	margin: 2px 1px 0px 0px;
-}
-
-li:hover .ul-about {
-	display: block;
+.li-sobre:hover > a {
 	background: #ffffff;
 	color: #000000;
-	position: absolute;
-	z-index: 5;
 }
 
-.social-icons {
-	position: absolute;
-	display: none;
-	width: 147px;
+.li-sobre:hover .li-about {
+	width: 150px;
+	opacity: 1;
+	
 }
-
-.social-icons li {
-	display: inline-block;
-}
-
-li:hover .social-icons {
-	display: block;
-}
-
-.li-link:hover {
-	color: #000000;
-	background: #ffffff;
-}
-
+/*Fim Menu Lateral */
 
 body {
 	background: #000000;
@@ -86,6 +97,7 @@ body {
 	height: 754px;
 	position: relative;
 	top: 125px;
+	z-index: -1;
 }
 
 figure {

@@ -1,3 +1,6 @@
+/*
+Antigo
+
 var imageCount = 0;
 var currentImage = 0;
 var images = new Array();
@@ -35,3 +38,5 @@ function startSlideShow() {
 	}
 }
 startSlideShow();
+
+*/
