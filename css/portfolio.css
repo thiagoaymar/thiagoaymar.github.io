@@ -1,117 +1,89 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 body {
-	background: url(../testebg.png);
-	z-index: 2 !important;
+	background: #000000;
 }
 
+/*Menu lateral*/
 header {
 	position: fixed;
 	top: 40%;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-	font-size: 30px;
 	left: 0px;
-	z-index: 5;
+	text-align: center;
 }
 
-.principal {
-	margin: auto;
-	width: 1500px;
-	height: 754px;
-	position: relative;
-	top: 125px;
-}
-
-ul {
+.ul-menu {
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	list-style: none;
 	width: 150px;
 }
 
-.li-menu {
-	position: relative;
-}
-
-.li-link {
-	display: block;
+.link-menu {
 	text-decoration: none;
-	color: #ffffff;
 	background: #000000;
+	display: block;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 30px;
 	padding: 5px;
-	margin: 2px 1px 0px 0px;
+	color: #ffffff;
+	z-index: 1;	
+
 }
 
-.li-link:hover {
-	color: #000000;
+.link-menu:hover {
 	background: #ffffff;
+	color: #000000;
 	transition: 0.2s ease-in;
 	-webkit-transition: 0.2s ease-in;
 	-moz-transition: 0.2s ease-in;
 	-o-transition: 0.2s ease-in;
 }
 
-.ul-about {
-	position: absolute;
-	top: 0;
-	border: 1px solid #ccc;
-	z-index: 1 !important;
-	transition: 0.2s ease all;
-	opacity: 0;	
-	left: 149px;
-	
-}
-
 .li-about {
-	z-index: 1 !important;
+	position: absolute;
+	border: solid #000000 1px;
+	width: 0;
+	height: 150px;
+	bottom: 34px;
+	left: 150px;
+	background: #ffffff;
+	opacity: 0;
+	transition: 0.2s ease-in;
+
 }
 
-li:hover .ul-about {
+.li-icons {
+	display: inline-block;
+	padding-top: 5px;
+	visibility: visible;
+	width: 25px;
+}
+
+.li-icons img {
+	width: 100%;
+}
+
+.ul-about {
+	visibility: hidden;
+}
+
+.li-sobre:hover > .ul-about {
+	opacity: 1;
+	visibility: visible;
+
+}
+
+.li-sobre:hover > a {
 	background: #ffffff;
 	color: #000000;
-	position: absolute;
-	z-index: 1; 
+}
+
+.li-sobre:hover .li-about {
+	width: 150px;
 	opacity: 1;
 }
 
-.social-icons {
-	position: absolute;
-	width: 147px;
-	opacity: 0;
-	padding-top: 5px;
-	right: 147px;
-}
-
-.social-icons li {
-	display: inline-block;
-}
-
-li:hover .social-icons {
-	transition: 1s ease all;
-	opacity: 1;
-	transform: translate(147px,0);
-
-}
 
 
-figure {
-	width: 1500px;
-	height: 754px;
-	margin: auto;
-	position: relative;
-	z-index: 4;
-}
-
-
-figure img {
-	width: auto;
-	height: auto;
-	max-height: 300px;
-	max-width: 370px;
-	display: inline-block;
-	padding: 0;
-	margin: auto;
-	position: relative;
-}
 
