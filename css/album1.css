@@ -119,5 +119,6 @@ figure img {
 	border-radius: 5px;
 }
 
-
-
+.imgs-album:hover {
+	border-radius: 0px;
+}
