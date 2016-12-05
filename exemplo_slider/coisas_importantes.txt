@@ -1,1 +1,10 @@
+* Study *
+
 http://cssreference.io/
+
+* To do *
+
+~>Site Esp
+-Slider do index
+-Rodapé
+-About
