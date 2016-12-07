@@ -2,6 +2,8 @@
 
 http://cssreference.io/
 
+http://www.carloshps.com.br/blog/criar-site-responsivo-com-html5-e-css3-parte-1-de-3/
+
 * To do *
 
 ~>Site Esp

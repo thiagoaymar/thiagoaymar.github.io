@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+/* Font Título */
+
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('../fonts/CaviarDreams.eot');
+  src: url('../fonts/CaviarDreams.woff2') format('woff2'),
+       url('../fonts/CaviarDreams.woff') format('woff'),
+       url('../fonts/CaviarDreams.ttf') format('truetype'),
+       url('../fonts/CaviarDreams.svg#CaviarDreams') format('svg'),
+       url('../fonts/CaviarDreams.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+	font-family: 'CaviarDreams';
+	font-size: 60px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.titulo {
+	width: 425px;
+}
+
 body {
 	background: #000000;
 }
