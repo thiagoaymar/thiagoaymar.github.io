@@ -31,16 +31,20 @@ h2 {
 
 .titulo {
 	width: 425px;
+	left: 50%;
+	position: absolute;
+	margin-left: -212.5px
 }
 
 body {
 	background: #000000;
+	margin: 0;
 }
 
 /*Menu lateral*/
 header {
 	position: fixed;
-	top: 40%;
+	top: 30%;
 	left: 0px;
 	text-align: center;
 }
