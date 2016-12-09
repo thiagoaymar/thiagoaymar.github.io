@@ -10,3 +10,11 @@ http://www.carloshps.com.br/blog/criar-site-responsivo-com-html5-e-css3-parte-1-
 -Slider do index
 -Rodapé
 -About
+
+* Important *
+
+~>Conversores de imagem
+
+http://www.jpegmini.com/
+
+https://tinypng.com/
