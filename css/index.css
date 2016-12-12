@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
-/* Font Título */
+/* Fonts */
 
 @font-face {
   font-family: 'CaviarDreams';
@@ -121,6 +121,15 @@ header {
 	opacity: 1;
 }
 
+/* Footer */
 
+.rodape {
+	position: absolute;
+	bottom: 0;
 
+}
 
+.rodape p {
+	color: #fff;
+	margin: 0;
+}
