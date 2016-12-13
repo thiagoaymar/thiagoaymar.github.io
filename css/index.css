@@ -14,15 +14,31 @@
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'Blacksword';
+    src: url('../fonts/Blacksword.eot');
+    src: url('../fonts/Blacksword.woff2') format('woff2'),
+       url('../fonts/Blacksword.woff') format('woff'),
+       url('../fonts/Blacksword.ttf') format('truetype'),
+       url('../fonts/Blacksword.svg#Blacksword') format('svg'),
+       url('../fonts/Blacksword.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Titulo */
+
 h1 {
 	font-family: 'CaviarDreams';
 	font-size: 60px;
 	color: #fff;
 	margin: 0;
-	padding: 0;
+	padding: -5px;
 }
 
 h2 {
+	font-family: 'Blacksword';
+	font-size: 15px;
 	color: #fff;
 	margin: 0;
 	padding: 0;
