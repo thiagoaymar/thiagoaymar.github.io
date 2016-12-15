@@ -149,3 +149,8 @@ header {
 	color: #fff;
 	margin: 0;
 }
+
+.rodape a {
+	text-decoration: none;
+	color: rgb(215, 215, 215);
+}
