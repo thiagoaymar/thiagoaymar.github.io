@@ -58,7 +58,7 @@ body {
 }
 
 /*Menu lateral*/
-header {
+nav {
 	position: fixed;
 	top: 30%;
 	left: 0px;
