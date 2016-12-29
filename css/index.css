@@ -92,14 +92,21 @@ h2 {
 }
 
 .li-icons img {
-	width: 100%;
+	width: 80%;
 	padding: 2px;
 	transition: ease-in 0.2s;
+	margin-left: 3px;
 }
 
 .li-icons img:hover {
-	width: 110%;
-	padding: 1px;
+	width: 100%;
+	padding-top: -15px;
+	margin: 0;
+}
+
+.li-icons li {
+	padding: 0;
+	margin: 0;
 }
 
 .social {
