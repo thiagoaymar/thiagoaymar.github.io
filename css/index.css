@@ -93,6 +93,13 @@ h2 {
 
 .li-icons img {
 	width: 100%;
+	padding: 2px;
+	transition: ease-in 0.2s;
+}
+
+.li-icons img:hover {
+	width: 110%;
+	padding: 1px;
 }
 
 .social {
