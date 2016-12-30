@@ -75,6 +75,7 @@ h2 {
 	left: 50%;
 	position: absolute;
 	margin-left: -212.5px;
+	text-align: center;
 }
 
 .titulo ul {
@@ -100,8 +101,9 @@ h2 {
 
 .li-icons img:hover {
 	width: 100%;
-	padding-top: -15px;
-	margin: 0;
+	margin-top: -5px;
+	margin-left: -3px;
+	
 }
 
 .li-icons li {
