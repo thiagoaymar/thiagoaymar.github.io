@@ -55,7 +55,7 @@
 
 h1 {
 	font-family: 'CaviarDreams';
-	font-size: 60px;
+	font-size: 58px;
 	color: #fff;
 	margin: 0;
 	padding: -5px;
@@ -197,13 +197,6 @@ nav {
 
 /* Slider */
 
-figure img {
-	width: 100%;
-	height: 100%;
-}
-
-a , img { border: none; }
-
 .trs {
 	-webkit-transition: all ease-out 0.5s;
 	-moz-transition: all ease-out 0.5s;
@@ -229,6 +222,42 @@ a , img { border: none; }
 	opacity: 1 !important;
 	filter: alpha(opacity=100) !important;
 }
+
+figure:hover span {
+	opacity: 0.76;
+	filter: alpha(opacity=76);
+}
+
+figure {
+	max-width: 600px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin: 50px auto;
+	top: 250px;
+}
+
+figcaption {
+	padding-left: 20px;
+	color: #fff;
+	font-family: "Kaushan Script", "Lato", "arial";
+	font-size: 22px;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 55px;
+	height: 55px;
+	z-index: 5;
+}
+
+figure img {
+	width: 600px;
+	height: 300px;
+}
+
+a , img { border: none; }
 
 /* Controladores */
 
@@ -286,34 +315,6 @@ span {
 .prev:after {
 	-webkit-transform: rotate(132deg);
 	top: 19px;
-}
-
-figure:hover span {
-	opacity: 0.76;
-	filter: alpha(opacity=76);
-}
-
-figure {
-	max-width: 600px;
-	height: 300px;
-	position: relative;
-	overflow: hidden;
-	margin: 50px auto;
-}
-
-figcaption {
-	padding-left: 20px;
-	color: #fff;
-	font-family: "Kaushan Script", "Lato", "arial";
-	font-size: 22px;
-	background: rgba(0,0,0,0.4);
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	line-height: 55px;
-	height: 55px;
-	z-index: 5;
 }
 
 /* Footer */
