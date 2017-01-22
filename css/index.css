@@ -233,7 +233,7 @@ a , img { border: none; }
 /* Controladores */
 
 span {
-	background: #0190EE;
+	background: rgba(0,0,0,0.4);
 	cursor: pointer;
 	opacity: 0;
 	filter: alpha(opacity=0);
@@ -306,7 +306,7 @@ figcaption {
 	color: #fff;
 	font-family: "Kaushan Script", "Lato", "arial";
 	font-size: 22px;
-	background: rgba(1,144,238,0.76);
+	background: rgba(0,0,0,0.4);
 	width: 100%;
 	position: absolute;
 	bottom: 0;
