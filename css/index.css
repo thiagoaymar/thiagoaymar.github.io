@@ -317,6 +317,38 @@ span {
 	top: 19px;
 }
 
+<<<<<<< HEAD
+=======
+figure:hover span {
+	opacity: 0.76;
+	filter: alpha(opacity=76);
+}
+
+figure {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	overflow: hidden;
+	margin: 50px auto;
+	left: 200px;
+}
+
+figcaption {
+	padding-left: 20px;
+	color: #fff;
+	font-family: "Kaushan Script", "Lato", "arial";
+	font-size: 22px;
+	background: rgba(0,0,0,0.40);
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 55px;
+	height: 55px;
+	z-index: 5;
+}
+
+>>>>>>> 44c3df00732c717e4fd7f059e693960e35f40ba7
 /* Footer */
 
 .rodape {
